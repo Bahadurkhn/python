@@ -30,3 +30,12 @@
 # print(a+b) 
 # error produce
 # if both have same datatpye then you can concatenate the varible
+
+#    complex number
+a = [2 + 3j, -4 - 5j]
+print("a =", a)
+
+# for dictinory
+dict1 ={"name":"Bahadur khan","age":22, "yes can vote":"true"}
+
+print(dict1)
