@@ -14,7 +14,7 @@
 
 # data type is the type of values which holds varible.This is required in programming that perform 
 # an opperation withput causing an KeyError
-# "In phyton we can print the type of varible using type function."
+# "In python we can print the type of varible using type function."
 
 # print("The type of a is:",type(a))
 

@@ -1,7 +1,7 @@
 
 # What is input function?
 
-# in phyton we can take user input directly using inputfunction.This input function gives return value as a string/char
+# in python we can take user input directly using inputfunction.This input function gives return value as a string/char
 # hence we have pass it into a variable.
 
 # a = input()
