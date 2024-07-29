@@ -12,3 +12,14 @@ b = "he is a boy"
 # print(a.replace("Hello Brave how are You?","Khan Bahadur"))
 print(b.replace("he is a boy","Bahadur is a good boy"))
 
+# Split():
+# the split method use to seperate string into list items
+print(b.split())
+# output:
+# Bahadur is a good boy
+# ['he', 'is', 'a', 'boy']
+
+c ="introduction tO PythOn"
+print(c.capitalize())
+# this method change first letter capital and then all the string into lowercase:
+# output:Introduction to python
