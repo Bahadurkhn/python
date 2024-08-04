@@ -32,19 +32,32 @@
 # else:
 #     print("Alexa do not add 1 kg apple")
 
-num =int(input("Enter your number:"))
+# num =int(input("Enter your number:"))
 
-if(num<0):
-    print("The number is negative.")
+# if(num<0):
+#     print("The number is negative.")
 
 
-elif(num==0):
-    print("The number is zero.")
+# elif(num==0):
+#     print("The number is zero.")
 
-elif(num==786):
-    print("The number is Special.")
+# elif(num==786):
+#     print("The number is Special.")
 
-else:
-    print("The number is positive.")
+# else:
+#     print("The number is positive.")
 
-print("I am happy now")
+# print("I am happy now")
+
+# Nested If Statement?
+# we can if,if-else,elif statement inside other if statement as well.
+
+num1 =int(input("Enter Your number:"))
+
+if(num1<=10):
+    print("The number is in between 1-10")
+
+
+elif(num1 > 10 and num1<=20 ):
+    print("The number is in between 11-20")
+
