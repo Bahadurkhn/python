@@ -5,7 +5,7 @@
 # comparing the varible with all the present until it fits into one.
 
 x = int(input("Enter the number :"))
-
+ 
 match x:
     case 0:
         print("x is zero")
