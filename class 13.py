@@ -52,12 +52,20 @@
 # Nested If Statement?
 # we can if,if-else,elif statement inside other if statement as well.
 
-num1 =int(input("Enter Your number:"))
+# num1 =int(input("Enter Your number:"))
 
-if(num1<=10):
-    print("The number is in between 1-10")
+# if(num1<=10):
+#     print("The number is in between 1-10")
 
 
-elif(num1 > 10 and num1<=20 ):
-    print("The number is in between 11-20")
+# elif(num1 > 10 and num1<=20 ):
+#     print("The number is in between 11-20")
+
+a =int(input("Enter the num :"))
+if(a>0 and a<=30):
+    print("The no is greater then 0 and less than 30")
+elif(a>30):
+    print("The no is :",a)
+else:
+    print("The no is greater then 30")
 
