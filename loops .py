@@ -39,13 +39,21 @@
 #     idx1 += 1
 
 # q5:find the number of x in tuple:
-# n = int(input("Enter the number of x : "))
-# nums =(1,4,9,16,25,36,49,64,81,100)
-# i = 0
-# while i<= len(nums):
-#     if(nums[i] == n):
-#      print("Found at idx",1)
-#      i +=1
+n = int(input("Enter the number to find: "))
+nums = (1, 4, 9, 16, 25, 36, 49, 64, 81, 100)
+
+i = 0
+found = False  # Flag to track if the number was found
+
+while i < len(nums):
+    if nums[i] == n:
+        print("Found at index", i)
+        found = True
+        break  # Exit loop once the number is found
+    i += 1
+
+if not found:
+    print("Number not found in the tuple.")
 
 
 
