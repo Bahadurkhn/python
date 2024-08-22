@@ -15,7 +15,7 @@ def ISlower(a, b):
 ISlower(a, b)
 
 CalculateGmean(a, b)
-
+#function for greater or lesser:
 def ISGreater(c, d):
  if(c<d):
     print("The first number is lasser/lower")
